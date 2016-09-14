@@ -1,0 +1,484 @@
+{
+  "keys": [
+    {
+      "Type": "Script",
+      "KeyID": 0,
+      "Command": " ",
+      "Script": " $me[0].Cut()",
+      "Caption": "ME1 Cut",
+      "Description": "CUT"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 1,
+      "Command": " ",
+      "Script": " $me[0].AutoTransition()",
+      "Caption": "Auto Transition",
+      "Description": "ME1 Auto Transition"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 3,
+      "Command": " ",
+      "Script": " $me[0].FTB()",
+      "Caption": "FTB",
+      "Description": "Fade to black"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 4,
+      "Command": " ",
+      "Script": "$DSK[2].OnAir = DSKToggle 2",
+      "Caption": "DSK 2 ",
+      "Description": "DSK 2 On-air"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 5,
+      "Command": " ",
+      "Script": "$Key[2].NextTransition=$true",
+      "Caption": "Key 2 Next Transition",
+      "Description": "Key 2 Next Transition"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 6,
+      "Command": " ",
+      "Script": "USKAutoTransition",
+      "Caption": "Key 2 On-Air",
+      "Description": "Key 2 On-Air"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 7,
+      "Command": " ",
+      "Script": "AtemLoadSnapshot 1",
+      "Caption": "Reset",
+      "Description": "Reset to default state"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 8,
+      "Command": " ",
+      "Script": "changeTransition \"Wipe\"",
+      "Caption": "Wipe",
+      "Description": "Set transition type to Wipe"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 9,
+      "Command": " ",
+      "Script": "changeTransition \"Dip\"",
+      "Caption": "DIP",
+      "Description": "Set transition type to DIP"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 11,
+      "Command": " ",
+      "Script": "$Aux[1].Input = $CurrentPreview",
+      "Caption": "SideScreens",
+      "Description": "Side screens on current Preview input"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 12,
+      "Command": " ",
+      "Script": "$DSK[1].OnAir = DSKToggle 1",
+      "Caption": "DSK 1",
+      "Description": "DSK 1 On-air"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 13,
+      "Command": " ",
+      "Script": null,
+      "Caption": null,
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 14,
+      "Command": " ",
+      "Script": null,
+      "Caption": null,
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 15,
+      "Command": " ",
+      "Script": "ToggleActiveME",
+      "Caption": "Toggle Active ME",
+      "Description": "If ATEM is 2 ME then switch buttons to control other ME"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 16,
+      "Command": " ",
+      "Script": null,
+      "Caption": null,
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 17,
+      "Command": " ",
+      "Script": null,
+      "Caption": null,
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 24,
+      "Command": " ",
+      "Script": " $ActiveME.Preview=0",
+      "Caption": "Preview AV",
+      "Description": "Set Preview bus to input 0"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 25,
+      "Command": " ",
+      "Script": " $ActiveME.Program=0",
+      "Caption": "Program AV",
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 27,
+      "Command": " ",
+      "Script": "keypad 20",
+      "Caption": null,
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 28,
+      "Command": " ",
+      "Script": "keypad 16",
+      "Caption": null,
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 29,
+      "Command": " ",
+      "Script": "keypad 12",
+      "Caption": null,
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 30,
+      "Command": " ",
+      "Script": "keypad 8",
+      "Caption": null,
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 31,
+      "Command": " ",
+      "Script": "keypad 4",
+      "Caption": null,
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 32,
+      "Command": " ",
+      "Script": "$ActiveME.Preview=6",
+      "Caption": "Preview 2",
+      "Description": "Set Preview bus to input 2"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 33,
+      "Command": " ",
+      "Script": "$ActiveME.Program=6",
+      "Caption": "Preview 2",
+      "Description": "Set Preview bus to input 2"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 35,
+      "Command": " ",
+      "Script": "keypad 19",
+      "Caption": null,
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 36,
+      "Command": " ",
+      "Script": "keypad 15",
+      "Caption": null,
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 37,
+      "Command": " ",
+      "Script": "keypad 11",
+      "Caption": null,
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 38,
+      "Command": " ",
+      "Script": "keypad 7",
+      "Caption": null,
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 39,
+      "Command": " ",
+      "Script": "keypad 3",
+      "Caption": null,
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 40,
+      "Command": " ",
+      "Script": "$ActiveME.Preview=5",
+      "Caption": "Preview 5",
+      "Description": "Set Preview bus to input 5"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 41,
+      "Command": " ",
+      "Script": "$ActiveME.Program=5",
+      "Caption": "Program 5",
+      "Description": "Set Programbus to input 5"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 43,
+      "Command": " ",
+      "Script": "keypad 18",
+      "Caption": null,
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 44,
+      "Command": " ",
+      "Script": "keypad 14",
+      "Caption": null,
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 45,
+      "Command": " ",
+      "Script": "keypad 10",
+      "Caption": null,
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 46,
+      "Command": " ",
+      "Script": "keypad 6",
+      "Caption": null,
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 47,
+      "Command": " ",
+      "Script": "keypad 2",
+      "Caption": null,
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 48,
+      "Command": " ",
+      "Script": "$ActiveME.Preview=4",
+      "Caption": "Preview 4",
+      "Description": "Set Preview bus to input 4"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 49,
+      "Command": " ",
+      "Script": "$ActiveME.Program=4",
+      "Caption": "Program 4",
+      "Description": "Set Programbus to input 4"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 51,
+      "Command": " ",
+      "Script": "keypad 17",
+      "Caption": null,
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 52,
+      "Command": " ",
+      "Script": "keypad 13",
+      "Caption": null,
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 53,
+      "Command": " ",
+      "Script": "keypad 9",
+      "Caption": null,
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 54,
+      "Command": " ",
+      "Script": "keypad 5",
+      "Caption": null,
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 55,
+      "Command": " ",
+      "Script": "keypad 1",
+      "Caption": null,
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 56,
+      "Command": " ",
+      "Script": "$ActiveME.Preview=3",
+      "Caption": "Preview 3",
+      "Description": "Set Preview bus to input 2"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 57,
+      "Command": " ",
+      "Script": "$ActiveME.Program=3",
+      "Caption": "Program 3",
+      "Description": "Set Preview bus to input 2"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 64,
+      "Command": " ",
+      "Script": "$ActiveME.Preview=2",
+      "Caption": "Preview 2",
+      "Description": "Set Preview bus to input 2"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 65,
+      "Command": " ",
+      "Script": "$ActiveME.Program=2",
+      "Caption": "Program 2",
+      "Description": "Set Preview bus to input 2"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 67,
+      "Command": " ",
+      "Script": "if($ActiveME.Preview -eq 3020){$Global:KeypadMode=\"MP2\";$Global:xkeys.SendData(1,67,2);$Global:Preview=3020} elseif($ActiveME.Program -eq 3020){$Global:KeypadMode=\"MP2\";$Global:xkeys.SendData(1,1547,2);$Global:Program=3020} else {$Global:xkeys.SendData(1,67,1);$ActiveME.Preview=3020}",
+      "Caption": "Preview MP2",
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 68,
+      "Command": " ",
+      "Script": "if($global:LoopInputs -eq $true){$global:LoopInputs = $false;$Global:xkeys.SendData(1,68,0)} else {$global:LoopInputs = $true;$Global:xkeys.SendData(1,68,1)}",
+      "Caption": "Loop Inputs",
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 69,
+      "Command": " ",
+      "Script": "if($global:loopColor -eq $true){$global:loopColor = $false;$Global:xkeys.SendData(1,69,0)} else {$global:loopColor = $true;$Global:xkeys.SendData(1,69,1)}",
+      "Caption": "Loop Colour",
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 70,
+      "Command": " ",
+      "Script": "$Global:xkeys.SendData(1,150,2);$Global:KeypadMode=\"Macro\"",
+      "Caption": null,
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 71,
+      "Command": " ",
+      "Script": " Stop",
+      "Caption": "Stop",
+      "Description": "Set Preview bus to input 2"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 72,
+      "Command": " ",
+      "Script": " $me[0].Preview=1",
+      "Caption": "Preview 1",
+      "Description": "Set Preview bus to input 2"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 73,
+      "Command": " ",
+      "Script": " $me[0].Program=1",
+      "Caption": "Program 1",
+      "Description": "Set Preview bus to input 2"
+    },
+    {
+      "Type": "Script",
+      "KeyID": 75,
+      "Command": " ",
+      "Script": "if($ActiveME.Preview -eq 3010){$Global:KeypadMode=\"MP1\";$Global:xkeys.SendData(1,75,2);$Global:Preview=3010} elseif($ActiveME.Program -eq 3010){$Global:KeypadMode=\"MP1\";$Global:xkeys.SendData(1,155,2);$Global:Program=3010} else {$Global:xkeys.SendData(1,75,1);$ActiveME.Preview=3010}",
+      "Caption": "Preview MP1",
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 76,
+      "Command": " ",
+      "Script": "$Global:xkeys.SendData(1,76,2);$Global:KeypadMode=\"Aux3\"",
+      "Caption": "Set Aux 3",
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 77,
+      "Command": " ",
+      "Script": "$Global:xkeys.SendData(1,77,2);$Global:KeypadMode=\"Aux2\"",
+      "Caption": "Set Aux 2",
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 78,
+      "Command": " ",
+      "Script": "$Global:xkeys.SendData(1,178,2);$Global:KeypadMode=\"Aux1\"",
+      "Caption": "Set Aux 1",
+      "Description": null
+    },
+    {
+      "Type": "Script",
+      "KeyID": 79,
+      "Command": " ",
+      "Script": null,
+      "Caption": null,
+      "Description": null
+    }
+  ]
+}
