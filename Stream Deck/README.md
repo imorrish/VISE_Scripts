@@ -1,5 +1,5 @@
 # Use an Elgato StreamDeck to control Blackmagic ATEM switcher
-![alt text](https://ianmorrish.files.wordpress.com/2017/11/streamdeckblog.jpg "Keyboard Layout")
+![Streamdeck ATEM Keyboard](https://ianmorrish.files.wordpress.com/2017/11/streamdeckblog.jpg)
 
 Requires the StreamDeckSharp.dll DLL from <https://1drv.ms/u/s!ApGpqMMpRLhikIdCTPjBasmUmcKOtw>
 And switcherlib.dll from <https://1drv.ms/u/s!ApGpqMMpRLhikIk639GzTxdvgeAncg>
